@@ -1,0 +1,81 @@
+{
+    "uuid": "0192a2fd-e267-8432-9dd8-dd37220d739c",
+    "vcon": "0.0.1",
+    "created_at": "2024-10-19T04:16:40.551289+00:00",
+    "redacted": {},
+    "group": [],
+    "parties": [
+        {
+            "tel": "+1234567890",
+            "name": "Alice",
+            "role": "caller"
+        },
+        {
+            "tel": "+1987654321",
+            "name": "Bob",
+            "role": "agent"
+        }
+    ],
+    "dialog": [
+        {
+            "type": "text",
+            "start": "2024-10-19T07:16:40.551598",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 0,
+            "mimetype": "text/plain",
+            "body": "Hello, I need help with my account."
+        },
+        {
+            "type": "text",
+            "start": "2024-10-19T07:17:40.551598",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 1,
+            "mimetype": "text/plain",
+            "body": "Certainly! I'd be happy to help. Can you please provide your account number?"
+        }
+    ],
+    "attachments": [
+        {
+            "type": "tags",
+            "body": [
+                "customer_id:12345",
+                "interaction_id:INT-001"
+            ],
+            "encoding": "json"
+        },
+        {
+            "type": "transcript",
+            "body": "Alice: Hello, I need help with my account.\nBob: Certainly! I'd be happy to help. Can you please provide your account number?",
+            "encoding": "none"
+        }
+    ],
+    "analysis": [
+        {
+            "type": "sentiment",
+            "dialog": [
+                0,
+                1
+            ],
+            "vendor": "SentimentAnalyzer",
+            "body": {
+                "overall_sentiment": "positive",
+                "customer_sentiment": "neutral",
+                "agent_sentiment": "positive"
+            },
+            "encoding": "none"
+        }
+    ],
+    "signatures": [
+        {
+            "protected": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9",
+            "signature": "DxdCLfadROxT2hUy-G6xkw9SQvijyONJ_bjCjSoy1GplQoIztDEhmbRfGa3kgtOQZ4hfV9onVK9igSNI4JBwAFvVDKAIDxExQdgGHA6ukxqSDZ4BOstBN2eAiy7ZFw1ZupxVwGDhTZEXEXDFFLTbAxIJOaetnO745XUnL6LdQmovcHVwZvEJT_-3-qlC6g4MrtSFSCyQ4-MQAGNMk9PjmyYral60YXhCJNKCSXsKrJ77qzK__ZiIroKuCCklZ9_vF9YRp0zFY4FZO2dM87NjJcAlTC6VE2HhNlH4OMoP_xVr7GnyUHxcoJVQG7E_PreuSY4UF_qUlCUdi0V1pnWuNg"
+        }
+    ],
+    "payload": "eyJ1dWlkIjogIjAxOTJhMmZkLWUyNjctODQzMi05ZGQ4LWRkMzcyMjBkNzM5YyIsICJ2Y29uIjogIjAuMC4xIiwgImNyZWF0ZWRfYXQiOiAiMjAyNC0xMC0xOVQwNDoxNjo0MC41NTEyODkrMDA6MDAiLCAicmVkYWN0ZWQiOiB7fSwgImdyb3VwIjogW10sICJwYXJ0aWVzIjogW3sidGVsIjogIisxMjM0NTY3ODkwIiwgIm5hbWUiOiAiQWxpY2UiLCAicm9sZSI6ICJjYWxsZXIifSwgeyJ0ZWwiOiAiKzE5ODc2NTQzMjEiLCAibmFtZSI6ICJCb2IiLCAicm9sZSI6ICJhZ2VudCJ9XSwgImRpYWxvZyI6IFt7InR5cGUiOiAidGV4dCIsICJzdGFydCI6ICIyMDI0LTEwLTE5VDA3OjE2OjQwLjU1MTU5OCIsICJwYXJ0aWVzIjogWzAsIDFdLCAib3JpZ2luYXRvciI6IDAsICJtaW1ldHlwZSI6ICJ0ZXh0L3BsYWluIiwgImJvZHkiOiAiSGVsbG8sIEkgbmVlZCBoZWxwIHdpdGggbXkgYWNjb3VudC4ifSwgeyJ0eXBlIjogInRleHQiLCAic3RhcnQiOiAiMjAyNC0xMC0xOVQwNzoxNzo0MC41NTE1OTgiLCAicGFydGllcyI6IFswLCAxXSwgIm9yaWdpbmF0b3IiOiAxLCAibWltZXR5cGUiOiAidGV4dC9wbGFpbiIsICJib2R5IjogIkNlcnRhaW5seSEgSSdkIGJlIGhhcHB5IHRvIGhlbHAuIENhbiB5b3UgcGxlYXNlIHByb3ZpZGUgeW91ciBhY2NvdW50IG51bWJlcj8ifV0sICJhdHRhY2htZW50cyI6IFt7InR5cGUiOiAidGFncyIsICJib2R5IjogWyJjdXN0b21lcl9pZDoxMjM0NSIsICJpbnRlcmFjdGlvbl9pZDpJTlQtMDAxIl0sICJlbmNvZGluZyI6ICJqc29uIn0sIHsidHlwZSI6ICJ0cmFuc2NyaXB0IiwgImJvZHkiOiAiQWxpY2U6IEhlbGxvLCBJIG5lZWQgaGVscCB3aXRoIG15IGFjY291bnQuXG5Cb2I6IENlcnRhaW5seSEgSSdkIGJlIGhhcHB5IHRvIGhlbHAuIENhbiB5b3UgcGxlYXNlIHByb3ZpZGUgeW91ciBhY2NvdW50IG51bWJlcj8iLCAiZW5jb2RpbmciOiAibm9uZSJ9XSwgImFuYWx5c2lzIjogW3sidHlwZSI6ICJzZW50aW1lbnQiLCAiZGlhbG9nIjogWzAsIDFdLCAidmVuZG9yIjogIlNlbnRpbWVudEFuYWx5emVyIiwgImJvZHkiOiB7Im92ZXJhbGxfc2VudGltZW50IjogInBvc2l0aXZlIiwgImN1c3RvbWVyX3NlbnRpbWVudCI6ICJuZXV0cmFsIiwgImFnZW50X3NlbnRpbWVudCI6ICJwb3NpdGl2ZSJ9LCAiZW5jb2RpbmciOiAibm9uZSJ9XX0"
+}

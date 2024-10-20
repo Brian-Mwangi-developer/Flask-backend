@@ -1,0 +1,85 @@
+{
+    "uuid": "0192a5f8-b42b-83a3-9dd8-dd37220d739c",
+    "vcon": "0.0.1",
+    "created_at": "2024-10-19T18:09:52.683377+00:00",
+    "redacted": {},
+    "group": [],
+    "parties": [
+        {
+            "tel": "",
+            "name": "princesshamilton_",
+            "role": "Instagram comment"
+        },
+        {
+            "tel": "",
+            "name": "AI Analysis",
+            "role": "Sentiment Analysis"
+        }
+    ],
+    "dialog": [
+        {
+            "type": "text",
+            "start": "2024-10-19T21:09:52.684125",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 0,
+            "mimetype": "text/plain",
+            "body": "I just love Lewis\u2764\ud83d\udda4 riding a motorcycle\nI think Lewis\ud83d\udc9b"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-19T21:10:52.684722",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 1,
+            "mimetype": "text/plain",
+            "body": "Sentiment: 0.50 | Likes: 0"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-19T21:09:52.684125",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 0,
+            "mimetype": "text/plain",
+            "body": "goat"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-19T21:10:52.684722",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 1,
+            "mimetype": "text/plain",
+            "body": "Sentiment: 0.00 | Likes: 0"
+        }
+    ],
+    "attachments": [],
+    "analysis": [
+        {
+            "type": "sentiment",
+            "dialog": [
+                0,
+                1
+            ],
+            "vendor": "SentimentAnalyzer",
+            "body": "Desires:\n1. The desire for Lewis to continue riding a motorcycle.\n2. The desire for gifts.\n\nComplaints:\n(None)\n\nPositivity:\n1. Deep affection for Lewis.\n2. Appreciation of Lewis' coolness.\n3. Recognition of Lewis as the greatest of all time (goat).\n4. Triple affirmation of love.\n5. Praise and applause for an unspecified reason or person.\n6. Admiration represented by a diamond.\n7. Strong attraction or admiration represented by the repeated use of the heart eyes emoji.\n8. Triple applause for an unspecified reason or person.\n9. Enjoyment of gifts.",
+            "encoding": "none"
+        }
+    ],
+    "signatures": [
+        {
+            "protected": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9",
+            "signature": "RZtsH-Ra8gAgB5Q6hof9vy4UADX67gUbuwYz3Tp6_5iGMlgatKEBLH0qsKkTUZQxEZq3TsetwHHMk9lexcE_iHZX6U5Ljc9qXNEKE__RhZyBzIV8RiS0KYTxgE8bMN5yDbByRYWRYb4P9Wr6ePmeZmWfbwnx42pPnGcTViJ_C5jZeDvXWr92i9bjR_zrJE3c1o5UW4XWtR8e-SwKxbHt0ZZFYXpYO2rQJ3cLxvwMD8IqeEnuZzvRXqqatqaZTGcpdcjY3iSGHpcsxgRtwnhsBOxfqOz0zfg7mkaWCOae9lPrPYY4Pkv9jNUY5Eem_fJF6fz7P5FuT9RBB92dzGOY7g"
+        }
+    ],
+    "payload": "eyJ1dWlkIjogIjAxOTJhNWY4LWI0MmItODNhMy05ZGQ4LWRkMzcyMjBkNzM5YyIsICJ2Y29uIjogIjAuMC4xIiwgImNyZWF0ZWRfYXQiOiAiMjAyNC0xMC0xOVQxODowOTo1Mi42ODMzNzcrMDA6MDAiLCAicmVkYWN0ZWQiOiB7fSwgImdyb3VwIjogW10sICJwYXJ0aWVzIjogW3sidGVsIjogIiIsICJuYW1lIjogInByaW5jZXNzaGFtaWx0b25fIiwgInJvbGUiOiAiSW5zdGFncmFtIGNvbW1lbnQifSwgeyJ0ZWwiOiAiIiwgIm5hbWUiOiAiQUkgQW5hbHlzaXMiLCAicm9sZSI6ICJTZW50aW1lbnQgQW5hbHlzaXMifV0sICJkaWFsb2ciOiBbeyJ0eXBlIjogInRleHQiLCAic3RhcnQiOiAiMjAyNC0xMC0xOVQyMTowOTo1Mi42ODQxMjUiLCAicGFydGllcyI6IFswLCAxXSwgIm9yaWdpbmF0b3IiOiAwLCAibWltZXR5cGUiOiAidGV4dC9wbGFpbiIsICJib2R5IjogIkkganVzdCBsb3ZlIExld2lzXHUyNzY0XHVkODNkXHVkZGE0IHJpZGluZyBhIG1vdG9yY3ljbGVcbkkgdGhpbmsgTGV3aXNcdWQ4M2RcdWRjOWIifSwgeyJ0eXBlIjogInRleHQiLCAic3RhcnQiOiAiMjAyNC0xMC0xOVQyMToxMDo1Mi42ODQ3MjIiLCAicGFydGllcyI6IFswLCAxXSwgIm9yaWdpbmF0b3IiOiAxLCAibWltZXR5cGUiOiAidGV4dC9wbGFpbiIsICJib2R5IjogIlNlbnRpbWVudDogMC41MCB8IExpa2VzOiAwIn0sIHsidHlwZSI6ICJ0ZXh0IiwgInN0YXJ0IjogIjIwMjQtMTAtMTlUMjE6MDk6NTIuNjg0MTI1IiwgInBhcnRpZXMiOiBbMCwgMV0sICJvcmlnaW5hdG9yIjogMCwgIm1pbWV0eXBlIjogInRleHQvcGxhaW4iLCAiYm9keSI6ICJnb2F0In0sIHsidHlwZSI6ICJ0ZXh0IiwgInN0YXJ0IjogIjIwMjQtMTAtMTlUMjE6MTA6NTIuNjg0NzIyIiwgInBhcnRpZXMiOiBbMCwgMV0sICJvcmlnaW5hdG9yIjogMSwgIm1pbWV0eXBlIjogInRleHQvcGxhaW4iLCAiYm9keSI6ICJTZW50aW1lbnQ6IDAuMDAgfCBMaWtlczogMCJ9XSwgImF0dGFjaG1lbnRzIjogW10sICJhbmFseXNpcyI6IFt7InR5cGUiOiAic2VudGltZW50IiwgImRpYWxvZyI6IFswLCAxXSwgInZlbmRvciI6ICJTZW50aW1lbnRBbmFseXplciIsICJib2R5IjogIkRlc2lyZXM6XG4xLiBUaGUgZGVzaXJlIGZvciBMZXdpcyB0byBjb250aW51ZSByaWRpbmcgYSBtb3RvcmN5Y2xlLlxuMi4gVGhlIGRlc2lyZSBmb3IgZ2lmdHMuXG5cbkNvbXBsYWludHM6XG4oTm9uZSlcblxuUG9zaXRpdml0eTpcbjEuIERlZXAgYWZmZWN0aW9uIGZvciBMZXdpcy5cbjIuIEFwcHJlY2lhdGlvbiBvZiBMZXdpcycgY29vbG5lc3MuXG4zLiBSZWNvZ25pdGlvbiBvZiBMZXdpcyBhcyB0aGUgZ3JlYXRlc3Qgb2YgYWxsIHRpbWUgKGdvYXQpLlxuNC4gVHJpcGxlIGFmZmlybWF0aW9uIG9mIGxvdmUuXG41LiBQcmFpc2UgYW5kIGFwcGxhdXNlIGZvciBhbiB1bnNwZWNpZmllZCByZWFzb24gb3IgcGVyc29uLlxuNi4gQWRtaXJhdGlvbiByZXByZXNlbnRlZCBieSBhIGRpYW1vbmQuXG43LiBTdHJvbmcgYXR0cmFjdGlvbiBvciBhZG1pcmF0aW9uIHJlcHJlc2VudGVkIGJ5IHRoZSByZXBlYXRlZCB1c2Ugb2YgdGhlIGhlYXJ0IGV5ZXMgZW1vamkuXG44LiBUcmlwbGUgYXBwbGF1c2UgZm9yIGFuIHVuc3BlY2lmaWVkIHJlYXNvbiBvciBwZXJzb24uXG45LiBFbmpveW1lbnQgb2YgZ2lmdHMuIiwgImVuY29kaW5nIjogIm5vbmUifV19"
+}

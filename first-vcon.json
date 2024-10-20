@@ -1,0 +1,96 @@
+{
+    "uuid": "0192ab0c-0d97-891f-9dd8-dd37220d739c",
+    "vcon": "0.0.1",
+    "created_at": "2024-10-20T17:49:06.839600+00:00",
+    "redacted": {},
+    "group": [],
+    "parties": [
+        {
+            "tel": "",
+            "name": "shay_psicopedagoga",
+            "role": "Instagram comment"
+        },
+        {
+            "tel": "",
+            "name": "AI Analysis",
+            "role": "Sentiment Analysis"
+        }
+    ],
+    "dialog": [
+        {
+            "type": "text",
+            "start": "2024-10-20T20:49:06.839845",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 0,
+            "mimetype": "text/plain",
+            "body": "@amazon I'm a fan of yours and I live in Brazil. I'm autistic and a social"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-20T20:50:06.839956",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 1,
+            "mimetype": "text/plain",
+            "body": "Sentiment: Neutral | Likes: 0"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-20T20:49:06.839845",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 0,
+            "mimetype": "text/plain",
+            "body": "@amazon I'm a fan of yours and I live in Brazil. I'm autistic and a social"
+        },
+        {
+            "type": "text",
+            "start": "2024-10-20T20:50:06.839956",
+            "parties": [
+                0,
+                1
+            ],
+            "originator": 1,
+            "mimetype": "text/plain",
+            "body": "Sentiment: Neutral | Likes: 0"
+        }
+    ],
+    "attachments": [
+        {
+            "type": "tags",
+            "body": [
+                "postUrl:https://www.instagram.com/reel/DA7DATTPacf/",
+                "positive_comments_count:0",
+                "negative_comments_count:0",
+                "neutral_comments_count:5"
+            ],
+            "encoding": "json"
+        }
+    ],
+    "analysis": [
+        {
+            "type": "sentiment",
+            "dialog": [
+                0,
+                1
+            ],
+            "vendor": "SentimentAnalyzer",
+            "body": "1. Desires: The user, who is autistic, lives in Brazil, and is a fan of Amazon, possibly wants Amazon to cater more to their needs. The user also seems to support the cause of bringing Sasha home, showing a desire for the well-being of the individual named Sasha.\n\n2. Complaints: There aren't any complaints expressed in the comments.\n\n3. Positivity: The user shows positivity by expressing their fandom towards Amazon and by supporting the cause of bringing Sasha home. The laughing face with clapping hands emoji also indicates joy or amusement.",
+            "encoding": "none"
+        }
+    ],
+    "signatures": [
+        {
+            "protected": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9",
+            "signature": "Y_WnEJURgk2fM3xrHXrt7PaGY8YW8T-GyAXwFl9sXx6k47FPw-kxT-53HJy3WZSW4AhLRuWK7xWIZWs2CRzUGvNNQ-qzWGT2Y8vpCfjZOlX-8rDfFF7iZO7nzY3q4Dj9sZ2qAtadS3giI6zAE7ffj5-ChD12xub79KEhXHF7JLD_EvGOHUdOFrpBtb4UteM9XPlvN7u6lxbDcLx9c5azZvUBOMmBTP6FbpAU-TAt3CnWwM0YCMkn3lzSXSFtc_3CpXpkBSGFmwjz4OswEOKt-oSGMLDbPGS8YizA8XBXjux8q0h5BRhe0jKDRFcYsd7uKV_bJ3LZz6EAjlPlGiMJVw"
+        }
+    ],
+    "payload": "eyJ1dWlkIjogIjAxOTJhYjBjLTBkOTctODkxZi05ZGQ4LWRkMzcyMjBkNzM5YyIsICJ2Y29uIjogIjAuMC4xIiwgImNyZWF0ZWRfYXQiOiAiMjAyNC0xMC0yMFQxNzo0OTowNi44Mzk2MDArMDA6MDAiLCAicmVkYWN0ZWQiOiB7fSwgImdyb3VwIjogW10sICJwYXJ0aWVzIjogW3sidGVsIjogIiIsICJuYW1lIjogInNoYXlfcHNpY29wZWRhZ29nYSIsICJyb2xlIjogIkluc3RhZ3JhbSBjb21tZW50In0sIHsidGVsIjogIiIsICJuYW1lIjogIkFJIEFuYWx5c2lzIiwgInJvbGUiOiAiU2VudGltZW50IEFuYWx5c2lzIn1dLCAiZGlhbG9nIjogW3sidHlwZSI6ICJ0ZXh0IiwgInN0YXJ0IjogIjIwMjQtMTAtMjBUMjA6NDk6MDYuODM5ODQ1IiwgInBhcnRpZXMiOiBbMCwgMV0sICJvcmlnaW5hdG9yIjogMCwgIm1pbWV0eXBlIjogInRleHQvcGxhaW4iLCAiYm9keSI6ICJAYW1hem9uIEknbSBhIGZhbiBvZiB5b3VycyBhbmQgSSBsaXZlIGluIEJyYXppbC4gSSdtIGF1dGlzdGljIGFuZCBhIHNvY2lhbCJ9LCB7InR5cGUiOiAidGV4dCIsICJzdGFydCI6ICIyMDI0LTEwLTIwVDIwOjUwOjA2LjgzOTk1NiIsICJwYXJ0aWVzIjogWzAsIDFdLCAib3JpZ2luYXRvciI6IDEsICJtaW1ldHlwZSI6ICJ0ZXh0L3BsYWluIiwgImJvZHkiOiAiU2VudGltZW50OiBOZXV0cmFsIHwgTGlrZXM6IDAifSwgeyJ0eXBlIjogInRleHQiLCAic3RhcnQiOiAiMjAyNC0xMC0yMFQyMDo0OTowNi44Mzk4NDUiLCAicGFydGllcyI6IFswLCAxXSwgIm9yaWdpbmF0b3IiOiAwLCAibWltZXR5cGUiOiAidGV4dC9wbGFpbiIsICJib2R5IjogIkBhbWF6b24gSSdtIGEgZmFuIG9mIHlvdXJzIGFuZCBJIGxpdmUgaW4gQnJhemlsLiBJJ20gYXV0aXN0aWMgYW5kIGEgc29jaWFsIn0sIHsidHlwZSI6ICJ0ZXh0IiwgInN0YXJ0IjogIjIwMjQtMTAtMjBUMjA6NTA6MDYuODM5OTU2IiwgInBhcnRpZXMiOiBbMCwgMV0sICJvcmlnaW5hdG9yIjogMSwgIm1pbWV0eXBlIjogInRleHQvcGxhaW4iLCAiYm9keSI6ICJTZW50aW1lbnQ6IE5ldXRyYWwgfCBMaWtlczogMCJ9XSwgImF0dGFjaG1lbnRzIjogW3sidHlwZSI6ICJ0YWdzIiwgImJvZHkiOiBbInBvc3RVcmw6aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9yZWVsL0RBN0RBVFRQYWNmLyIsICJwb3NpdGl2ZV9jb21tZW50c19jb3VudDowIiwgIm5lZ2F0aXZlX2NvbW1lbnRzX2NvdW50OjAiLCAibmV1dHJhbF9jb21tZW50c19jb3VudDo1Il0sICJlbmNvZGluZyI6ICJqc29uIn1dLCAiYW5hbHlzaXMiOiBbeyJ0eXBlIjogInNlbnRpbWVudCIsICJkaWFsb2ciOiBbMCwgMV0sICJ2ZW5kb3IiOiAiU2VudGltZW50QW5hbHl6ZXIiLCAiYm9keSI6ICIxLiBEZXNpcmVzOiBUaGUgdXNlciwgd2hvIGlzIGF1dGlzdGljLCBsaXZlcyBpbiBCcmF6aWwsIGFuZCBpcyBhIGZhbiBvZiBBbWF6b24sIHBvc3NpYmx5IHdhbnRzIEFtYXpvbiB0byBjYXRlciBtb3JlIHRvIHRoZWlyIG5lZWRzLiBUaGUgdXNlciBhbHNvIHNlZW1zIHRvIHN1cHBvcnQgdGhlIGNhdXNlIG9mIGJyaW5naW5nIFNhc2hhIGhvbWUsIHNob3dpbmcgYSBkZXNpcmUgZm9yIHRoZSB3ZWxsLWJlaW5nIG9mIHRoZSBpbmRpdmlkdWFsIG5hbWVkIFNhc2hhLlxuXG4yLiBDb21wbGFpbnRzOiBUaGVyZSBhcmVuJ3QgYW55IGNvbXBsYWludHMgZXhwcmVzc2VkIGluIHRoZSBjb21tZW50cy5cblxuMy4gUG9zaXRpdml0eTogVGhlIHVzZXIgc2hvd3MgcG9zaXRpdml0eSBieSBleHByZXNzaW5nIHRoZWlyIGZhbmRvbSB0b3dhcmRzIEFtYXpvbiBhbmQgYnkgc3VwcG9ydGluZyB0aGUgY2F1c2Ugb2YgYnJpbmdpbmcgU2FzaGEgaG9tZS4gVGhlIGxhdWdoaW5nIGZhY2Ugd2l0aCBjbGFwcGluZyBoYW5kcyBlbW9qaSBhbHNvIGluZGljYXRlcyBqb3kgb3IgYW11c2VtZW50LiIsICJlbmNvZGluZyI6ICJub25lIn1dfQ"
+}
